@@ -1,5 +1,7 @@
+import { Button } from "./_components/ui/button";
+
 const Home = () => {
-  return <h1>Olá mundo</h1>;
+  return <Button>Teste</Button>;
 };
  
 
