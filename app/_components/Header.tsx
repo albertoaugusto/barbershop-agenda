@@ -10,12 +10,12 @@ const Header = () => {
       <CardContent className="flex flex-row items-center justify-between p-5">
         <Image
           className=""
-          src="/barbershop-logo.png"
+          src="/logo-saloon.png"
           height={18}
           width={120}
           alt="logo"
         ></Image>
-        <Button size="icon" variant="outline">
+        <Button className="bg-purple-900" size="icon" variant="outline">
           <MenuIcon />
         </Button>
       </CardContent>
