@@ -15,8 +15,12 @@ const Header = () => {
           width={120}
           alt="logo"
         ></Image>
-        <Button className="bg-purple-900" size="icon" variant="outline">
-          <MenuIcon />
+        <Button
+          className="bg-transparent hover:text-purple-700"
+          size="icon"
+          variant="outline"
+        >
+          <MenuIcon className="text-purple-900" />
         </Button>
       </CardContent>
     </Card>
